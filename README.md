@@ -12,6 +12,14 @@ Java 17
 
 ### 2、引用
 
+``` xml
+<dependency>
+  <groupId>com.yuqianhao</groupId>
+  <artifactId>PromiseTask</artifactId>
+  <version>1.1.7</version>
+</dependency>
+```
+
 ### 3、初始化线程池
 
 这个步骤可以省略，如果开发者想要精确地控制线程池的线程数量，就需要在程序刚开始执行的时候，调用这个方法来配置线程池。
