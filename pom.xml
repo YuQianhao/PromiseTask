@@ -9,7 +9,7 @@
     <!-- Jar包名称 -->
     <artifactId>PromiseTask</artifactId>
     <!-- 版本号 -->
-    <version>1.1.8</version>
+    <version>1.1.9</version>
     <!-- 项目名称 -->
     <name>PromiseTask</name>
     <!-- 项目地址 -->
