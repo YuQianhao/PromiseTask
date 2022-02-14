@@ -7,15 +7,15 @@
     <!-- GroupID，要与在Sonatype上提交创建的一致 -->
     <groupId>com.yuqianhao</groupId>
     <!-- Jar包名称 -->
-    <artifactId>FieldGuard</artifactId>
+    <artifactId>PromiseTask</artifactId>
     <!-- 版本号 -->
-    <version>1.0.3</version>
+    <version>1.1.8</version>
     <!-- 项目名称 -->
-    <name>FieldGuard</name>
+    <name>PromiseTask</name>
     <!-- 项目地址 -->
-    <url>https://github.com/YuQianhao/FieldGuard</url>
+    <url>https://github.com/YuQianhao/PromiseTask</url>
     <!-- 项目描述 -->
-    <description>字段警卫。</description>
+    <description>异步任务提供者，提供了快捷操作批量异步任务的方法。</description>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
