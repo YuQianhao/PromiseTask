@@ -11,6 +11,13 @@ Java 17
 ```
 
 ### 2、引用
+```xml
+<dependency>
+  <groupId>com.yuqianhao</groupId>
+  <artifactId>PromiseTask</artifactId>
+  <version>1.1.8</version>
+</dependency>
+```
 
 ### 3、初始化线程池
 

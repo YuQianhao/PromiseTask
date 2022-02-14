@@ -25,10 +25,17 @@ public interface IPromise {
     <ResultType> void async(IAsyncResult<ResultType> callback, IPromiseTask<ResultType> task);
 
     /**
-     * 同时异步执行多个异步任务，并且等待所有异步任务结果返回后返回
+     * 同时执行多个异步任务，任务提交后会立即返回，主线程不会等待
      * @param task 多个任务执行过程
-     * @return 所有任务异步执行结束后的结果返回组，返回的结果顺序和任务参数顺序一直
+     * @return 结果返回组，返回的结果顺序和任务参数顺序一直
      */
     PromiseArrayResult all(IRunnableTask ...task);
+
+    /**
+     * 同时执行多个异步任务，任务提交后并不会立即返回，主线程等所有任务执行结束后才会返回
+     * @param task 任务列表
+     * @return 返回任务执行的结果
+     */
+    Object[] waitAll(IRunnableTask ...task);
 
 }

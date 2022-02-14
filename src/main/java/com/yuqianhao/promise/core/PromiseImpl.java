@@ -51,4 +51,14 @@ public class PromiseImpl implements IPromise{
         }
         return promiseAllResult;
     }
+
+    @Override
+    public Object[] waitAll(IRunnableTask... task) {
+        PromiseArrayResult taskResult=all(task);
+        try {
+            return taskResult.get();
+        } catch (InterruptedException e) {
+            return new Object[task.length];
+        }
+    }
 }
