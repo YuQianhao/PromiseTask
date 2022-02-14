@@ -51,7 +51,7 @@ public class Promise {
      * @param task 任务列表
      * @return 返回任务执行的结果
      */
-    public Object[] waitAll(IRunnableTask ...task){
+    public static Object[] waitAll(IRunnableTask ...task){
         return PromiseImpl.getImpl().waitAll(task);
     }
 
