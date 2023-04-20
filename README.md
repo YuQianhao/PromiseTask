@@ -15,7 +15,7 @@ Java 17
 <dependency>
   <groupId>com.yuqianhao</groupId>
   <artifactId>PromiseTask</artifactId>
-  <version>1.1.11</version>
+  <version>1.1.12</version>
 </dependency>
 ```
 
