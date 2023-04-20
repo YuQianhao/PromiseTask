@@ -15,17 +15,10 @@ Java 17
 <dependency>
   <groupId>com.yuqianhao</groupId>
   <artifactId>PromiseTask</artifactId>
-  <version>1.1.10</version>
+  <version>1.1.11</version>
 </dependency>
 ```
 
-``` xml
-<dependency>
-  <groupId>com.yuqianhao</groupId>
-  <artifactId>PromiseTask</artifactId>
-  <version>1.1.7</version>
-</dependency>
-```
 
 ### 3、初始化线程池
 
